@@ -1,0 +1,21 @@
+*{
+    --bg-green: #91c68d;
+    font-family: "Banda Regular", Sans-serif;
+}
+ 
+.logo{
+   width: 45%;
+   min-width: 250px;
+}
+
+.nav{
+    border-bottom: 2px solid var(--bg-green);
+    font-size: 18px;
+    font-family: "Roboto", Sans-serif;
+    background-color: white;
+}
+
+.nav li:hover{
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+}

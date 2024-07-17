@@ -1,0 +1,95 @@
+*{
+    /* --text-green:#91c68d; */
+    --text-green: #436648;
+    --bg-color: #e1f5c4;
+    
+    font-family: "Banda Regular", Sans-serif;
+}
+
+.bg-light-green{
+    background-color: var(--bg-color) !important;
+}
+
+.text-green{
+    color: var(--text-green);
+}
+ 
+.logo{
+   width: 45%;
+   min-width: 250px;
+}
+
+.title{
+    font-size: 38px;
+}
+
+.nav{
+    border-bottom: 2px solid var(--text-green);
+    font-size: 18px;
+    font-family: "Roboto", Sans-serif;
+    /* background-color: white; */
+}
+
+.nav li:hover{
+    background-color: #91c68d;
+    border-radius: 5px;
+}
+
+.box-image>div:hover{
+   transform: scale(1.1);
+   transition: 200ms;
+}
+
+.box-img-small{
+    transition: 200ms;
+    height: 150px;    
+    border-radius: 15px;
+    background-size: cover;
+    background-position: 10%;
+    background-repeat: no-repeat;
+}
+
+.box-img-large{
+    transition: 200ms;
+    height: 180px;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: 10%;
+    background-repeat: no-repeat;
+}
+
+.box-img-relative{
+    top: 30px;
+    position: relative;
+}
+
+.box-1{ 
+    background-image: url(./images/bolo1.jpeg);
+}
+.box-2{
+    background-image: url(./images/bolo2.jpeg);
+}
+.box-3{ 
+    background-image: url(./images/bolo3.jpeg);
+}
+.box-4{  
+    background-image: url(./images/bolo4.jpeg);
+}
+
+.text{
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    line-height: 2;
+}
+
+.hr{
+    width: 100%;
+    height: 2px;
+    background-color:var(--text-green);
+}
+
+.titulo-produtos{
+    text-align: start;
+    font-size: 32px;
+    letter-spacing: 8px;
+}

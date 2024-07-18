@@ -1,7 +1,10 @@
 *{
     /* --text-green:#91c68d; */
     --text-green: #436648;
-    --bg-color: #e1f5c4;
+
+    /* --bg-color: #e1f5c4; */
+    --bg-color: white;
+
     
     font-family: "Banda Regular", Sans-serif;
 }
@@ -89,7 +92,10 @@
 }
 
 .titulo-produtos{
-    text-align: start;
     font-size: 32px;
     letter-spacing: 8px;
+}
+
+.icon{
+    color: var(--text-green);
 }

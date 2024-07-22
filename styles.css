@@ -1,7 +1,10 @@
 *{
     /* --text-green:#91c68d; */
     --text-green: #436648;
-    --bg-color: #e1f5c4;
+
+    /* --bg-color: #e1f5c4; */
+    --bg-color: white;
+
     
     font-family: "Banda Regular", Sans-serif;
 }
@@ -20,20 +23,29 @@
 }
 
 .title{
-    font-size: 38px;
+    font-size: clamp(36px, 37px ,58px);
 }
 
 .nav{
     border-bottom: 2px solid var(--text-green);
     font-size: 18px;
     font-family: "Roboto", Sans-serif;
-    /* background-color: white; */
 }
 
-.nav li:hover{
+.link-nav{
+    text-decoration: none;
+    color: gray;
+}
+
+.link-nav:hover{
+    color: #436648;
+    border-bottom: 2px solid var(--text-green);
+}
+
+/* .nav li:hover{
     background-color: #91c68d;
     border-radius: 5px;
-}
+} */
 
 .box-image>div:hover{
    transform: scale(1.1);
@@ -43,7 +55,10 @@
 .box-img-small{
     transition: 200ms;
     height: 150px;    
-    border-radius: 15px;
+}
+
+.box-img{
+    border-radius: 10px;
     background-size: cover;
     background-position: 10%;
     background-repeat: no-repeat;
@@ -52,10 +67,6 @@
 .box-img-large{
     transition: 200ms;
     height: 180px;
-    border-radius: 15px;
-    background-size: cover;
-    background-position: 10%;
-    background-repeat: no-repeat;
 }
 
 .box-img-relative{
@@ -64,16 +75,16 @@
 }
 
 .box-1{ 
-    background-image: url(./images/bolo1.jpeg);
+    background-image: url(./images/bolo-de-morango.jpeg);
 }
 .box-2{
-    background-image: url(./images/bolo2.jpeg);
+    background-image: url(./images/bolo-de-chomorango.jpeg);
 }
 .box-3{ 
-    background-image: url(./images/bolo3.jpeg);
+    background-image: url(./images/bolo-cholate-aniversario.jpeg);
 }
 .box-4{  
-    background-image: url(./images/bolo4.jpeg);
+    background-image: url(./images/bolo-morango-cima.jpeg);
 }
 
 .text{
@@ -89,7 +100,10 @@
 }
 
 .titulo-produtos{
-    text-align: start;
     font-size: 32px;
     letter-spacing: 8px;
+}
+
+.icon{
+    color: var(--text-green);
 }

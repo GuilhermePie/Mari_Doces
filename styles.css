@@ -7,6 +7,8 @@
 
     
     font-family: "Banda Regular", Sans-serif;
+
+    scroll-margin-top: 20px;
 }
 
 .bg-light-green{
@@ -37,9 +39,23 @@
     color: gray;
 }
 
+.link-cap{
+    text-decoration: none;
+    color: white;
+}
+
+.link-cap:hover{
+    color: greenyellow;
+    border-bottom: 2px solid var(--text-green);
+}
+
 .link-nav:hover{
     color: #436648;
     border-bottom: 2px solid var(--text-green);
+}
+
+.footer{
+    background-color: #436648;
 }
 
 /* .nav li:hover{

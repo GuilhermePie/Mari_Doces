@@ -1,13 +1,8 @@
 *{
-    /* --text-green:#91c68d; */
     --text-green: #436648;
-
-    /* --bg-color: #e1f5c4; */
     --bg-color: white;
-
     
     font-family: "Banda Regular", Sans-serif;
-
     scroll-margin-top: 20px;
 }
 

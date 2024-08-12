@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-<<<<<<< HEAD
   "dependencies": {
     "bootstrap": "^5.3.3",
     "esbuild": "^0.21.5",
@@ -15,26 +14,12 @@
     "vite": "^5.3.5"
   },
   "devDependencies": {},
-  "scripts": {
-    "dev":"vite",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "",
-  "license": "ISC"
-=======
+  "license": "ISC",
   "scripts": {
     "build": "vite build",
     "preview": "vite preview",
     "dev": "vite",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Guilherme",
-  "license": "ISC",
-  "devDependencies": {
-    "vite": "^5.3.5"
-  },
-  "dependencies": {
-    "bootstrap": "^5.3.3"
   }
->>>>>>> b8180b0e0501e56cadfa4eb9bbe81560be338849
 }

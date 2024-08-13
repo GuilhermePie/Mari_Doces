@@ -3,7 +3,7 @@
     --bg-color: white;
     
     font-family: "Banda Regular", Sans-serif;
-    scroll-margin-top: 20px;
+    scroll-margin-top: 150px;
 }
 
 .bg-light-green{
@@ -86,7 +86,7 @@
 }
 
 .box-1{ 
-    background-image: url(./images/bolo-de-morango.jpeg);
+    background-image: url(./images/bolo-decorado-chocolate.jpg);
 }
 .box-2{
     background-image: url(./images/bolo-de-chomorango.jpeg);

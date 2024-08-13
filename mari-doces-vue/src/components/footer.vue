@@ -1,16 +1,4 @@
-
-class Footer extends HTMLElement {
-   #footerTemplate = document.createElement('template');
-
-
-    constructor() {
-      super();
-
-      this.#footerTemplate.innerHTML = `
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-      <link rel="stylesheet" href="styles.css">
-
+<template>
       <footer class="py-3 my-4 border-top">
           <ul class="nav justify-content-center border-bottom  pb-3 mb-3">
               <li class="nav-item"><a href="#inicio" class="nav-link px-2 text-muted"><i
@@ -28,15 +16,12 @@ class Footer extends HTMLElement {
                           Email</a></li>
           </ul>
           <p class="text-center text-muted">Copywrite © Guilherme Piedade 2024</p>
-      </footer>` 
-    }
-  
-    connectedCallback() {
-      const shadow = this.attachShadow({ mode: 'closed' });
-  
-      shadow.appendChild(this.#footerTemplate.content);
-    }
+      </footer>
+</template>
 
-  }
-  
-  customElements.define('footer-content', Footer);
+<script>
+    export default{
+        name:'footerOfSite'
+    }
+</script>
+     

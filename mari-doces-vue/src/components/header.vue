@@ -1,23 +1,13 @@
-class Header extends HTMLElement {
-
-//  #headerTemplate = document.createElement('template');
-
-    constructor() {
-      super();
-
-    }
-  
-    connectedCallback() {
-        this.innerHTML = `
-        <nav class="bg-light-green navbar navbar-expand-sm nav" aria-label="Third navbar example">
+<template>
+        <nav class="bg-light-green navbar navbar-expand-sm nav">
             <div class="navbar-brand w-50 ms-3">
                 <a href="index.html">
-                    <img src="./images/logo.png" alt="Logo da confeitaria Mari Doces" class="img-fluid logo">
+                    <img src="/src/assets/logo.png" alt="Logo da confeitaria Mari Doces" class="img-fluid logo">
                 </a>
             </div>
 
             <button class="navbar-toggler collapsed me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
-                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                aria-controls="navbar" aria-expanded="false">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -38,12 +28,11 @@ class Header extends HTMLElement {
                 </ul>
             </div>
         </nav>
-` 
-    //   const shadow = this.attachShadow({ mode: 'closed' });
-  
-    //   shadow.appendChild(this.#headerTemplate.content);
-    }
+</template>
 
-  }
-  
-  customElements.define('header-content', Header);
+<script>
+    export default{
+        name:'headerOfSite'
+    }
+</script>
+        
